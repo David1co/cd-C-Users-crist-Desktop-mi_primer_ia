@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller Automotriz Premium</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="container"
+            style="display: flex; justify-content: space-between; align-items: center; height: 70px;">
+            <a href="#" class="logo">Taller<span>Premium</span></a>
+            <nav class="nav-links">
+                <a href="#servicios">Servicios</a>
+                <a href="#antes-despues">Antes y Después</a>
+                <a href="#trabajos">Trabajos</a>
+                <a href="#ventas">Ventas</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+            <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+        </div>
+    </header>
+
+    <section class="hero" id="inicio">
+        <div class="hero-overlay"></div>
+        <div class="hero-content container">
+            <h1>Expertos en Cuidado Automotriz</h1>
+            <p>Brindamos soluciones integrales de mecánica, latonería y pintura. Tu vehículo en las mejores manos.</p>
+            <a href="#contacto" class="btn btn-primary">Agendar Cita</a>
+        </div>
+    </section>
+
+    <!-- 4. SERVICIOS -->
+    <section id="servicios" class="section">
+        <div class="container">
+            <h2 class="section-title">Nuestros Servicios</h2>
+            <div class="grid-services">
+                <div class="card service-card">
+                    <i class="fas fa-tools"></i>
+                    <h3>Mecánica General</h3>
+                    <p>Diagnóstico, frenos, motor.</p>
+                </div>
+                <div class="card service-card">
+                    <i class="fas fa-spray-can"></i>
+                    <h3>Latonería y Pintura</h3>
+                    <p>Restauración estética perfecta.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. ANTES Y DESPUES -->
+    <section id="antes-despues" class="section bg-dark">
+        <div class="container">
+            <h2 class="section-title text-light">Antes y Después</h2>
+            <div class="comparison-slider">
+                <div class="image-wrapper before">
+                    <img src="https://images.unsplash.com/photo-1549448834-8c8fb509f6ba?q=80&w=1000&auto=format&fit=crop"
+                        alt="Antes">
+                    <span class="label">Antes</span>
+                </div>
+                <div class="image-wrapper after">
+                    <img src="https://images.unsplash.com/photo-1541348263662-e068f62f4a06?q=80&w=1000&auto=format&fit=crop"
+                        alt="Despues">
+                    <span class="label">Después</span>
+                </div>
+                <div class="slider-handle">
+                    <i class="fas fa-arrows-alt-h"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. TRABAJOS REALIZADOS -->
+    <section id="trabajos" class="section">
+        <div class="container">
+            <h2 class="section-title">Portafolio de Trabajos</h2>
+            <div class="grid-gallery">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1485291571150-772bcfc10da5?q=80&w=600&auto=format&fit=crop"
+                        alt="Trabajo 1">
+                    <div class="gallery-overlay">
+                        <h4>Pintura Mate Completa</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1493238792000-8113da705763?q=80&w=600&auto=format&fit=crop"
+                        alt="Trabajo 2">
+                    <div class="gallery-overlay">
+                        <h4>Reconstrucción Frontal</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. CARROS EN VENTA -->
+    <section id="ventas" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Carros en Venta Certificados</h2>
+            <div class="grid-sales">
+                <div class="card sale-card">
+                    <div class="sale-img">
+                        <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=600&auto=format&fit=crop"
+                            alt="Auto">
+                    </div>
+                    <div class="sale-info">
+                        <h3>Chevrolet Corvette 2021</h3>
+                        <p class="price">$55,000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 1 y 2. PAGOS Y CONTACTO -->
+    <section id="contacto" class="section border-top">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Encuéntranos Aquí</h2>
+                    <ul class="contact-list">
+                        <li><i class="fas fa-map-marker-alt"></i> Av Principal 123</li>
+                    </ul>
+                    <div class="payment-methods mt-4">
+                        <h3>Medios de Pago</h3>
+                        <div class="payment-icons">
+                            <i class="fab fa-cc-visa"></i>
+                            <i class="fab fa-cc-mastercard"></i>
+                            <i class="fas fa-money-bill-wave"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15904.30132223019!2d-74.0059!3d40.7128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTDCsDQyJzQ2LjEiTiA3NMKwMDAnMjEuMiJX!5e0!3m2!1ses!2sus!4v1614272146911!5m2!1ses!2sus"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
